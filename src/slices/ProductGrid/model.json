@@ -1,0 +1,64 @@
+{
+  "id": "product_grid",
+  "type": "SharedSlice",
+  "name": "ProductGrid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Default",
+      "imageUrl": "https://images.prismic.io/suburbia-javkhlant/shared-slices/product_grid/default/826c95fdf1ca06e8bdc58bbc9eed266307077c4d.png?auto=compress%2Cformat",
+      "docURL": "...",
+      "version": "initial",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "single": "heading2",
+            "allowTargetBlank": true
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body",
+            "placeholder": "",
+            "multi": "paragraph,strong,em",
+            "allowTargetBlank": true
+          }
+        },
+        "product": {
+          "type": "Group",
+          "config": {
+            "label": "Product",
+            "repeat": true,
+            "fields": {
+              "skateboard": {
+                "type": "Link",
+                "config": {
+                  "label": "Skateboard",
+                  "select": "document",
+                  "customtypes": [
+                    {
+                      "id": "skateboard",
+                      "fields": [
+                        "name",
+                        "image",
+                        "price",
+                        "customizer"
+                      ]
+                    }
+                  ],
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "description": "ProductGrid"
+}

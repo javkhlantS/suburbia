@@ -1,0 +1,27 @@
+{
+  "id": "team_grid",
+  "type": "SharedSlice",
+  "name": "TeamGrid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Default",
+      "imageUrl": "https://images.prismic.io/suburbia-javkhlant/shared-slices/team_grid/default/db4738b1d654d0a4f022c7dad41f4c58ca0ea5f5.png?auto=compress%2Cformat",
+      "docURL": "...",
+      "version": "initial",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "single": "heading2",
+            "allowTargetBlank": true
+          }
+        }
+      }
+    }
+  ],
+  "description": "TeamGrid"
+}

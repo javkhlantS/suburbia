@@ -1,0 +1,9 @@
+{
+  "repositoryName": "suburbia-javkhlant",
+  "routes": [
+    {
+      "type": "homepage",
+      "path": "/"
+    }
+  ]
+}

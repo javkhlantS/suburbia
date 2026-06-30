@@ -1,0 +1,25 @@
+{
+  "id": "video_block",
+  "type": "SharedSlice",
+  "name": "VideoBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Default",
+      "imageUrl": "https://images.prismic.io/suburbia-javkhlant/shared-slices/video_block/default/a995e3237784646b6a25a3bff9dc3f8e56f75c2f.png?auto=compress%2Cformat",
+      "docURL": "...",
+      "version": "initial",
+      "primary": {
+        "youtube_video_id": {
+          "type": "Text",
+          "config": {
+            "label": "Youtube Video ID",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ],
+  "description": "VideoBlock"
+}
